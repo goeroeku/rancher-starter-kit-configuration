@@ -1,8 +1,13 @@
-# Sample nginx config for Rancher
+# Sample nginx, php-fpm configuration for Rancher
 
 ### Steps
 
 1. Clone this repository
+
+```text
+git clone git@github.com:goeroeku/rancher-starter-kit-configuration.git
+```
+
 2. Create NGINX Service, add 3 VOLUME, add link to php service, use `image: nginx:alpine`
 
 ```text
